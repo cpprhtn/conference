@@ -1,11 +1,9 @@
 follow:
   - name: github
-    url: https://github.com/json-schema-org
+    url: https://github.com/pythonkr
   - name: twitter
-    url: https://x.com/jsonschema
+    url: https://x.com/pyconkr
   - name: linkedin
-    url: https://www.linkedin.com/company/jsonschema
+    url: https://www.linkedin.com/company/pyconkorea
   - name: youtube
-    url: https://www.youtube.com/@JSONSchemaOrgOfficial
-  - name: slack
-    url: https://json-schema.org/slack
+    url: https://www.youtube.com/@PyConKRtube

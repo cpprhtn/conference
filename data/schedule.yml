@@ -2,7 +2,7 @@
   start: "10:00"
   end: "15:30"
   rooms:
-    - room: main
+    - room: main2
       slots:
         - slot: state_of_json_schema
           talk: state_of_json_schema

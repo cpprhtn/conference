@@ -1,5 +1,5 @@
-// Countdown to December 11th, 2025
-const countdownDate = new Date("Dec 11, 2025 00:00:00").getTime();
+// Countdown to Sep 30th, 2025
+const countdownDate = new Date("Sep 30, 2025 00:00:00").getTime();
 
 const countdown = setInterval(function () {
   const now = new Date().getTime();

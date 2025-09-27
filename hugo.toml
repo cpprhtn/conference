@@ -1,19 +1,19 @@
 baseURL = "/"
 relativeURLs = true
 languageCode = "en-us"
-title = "JSON Schema Conference 25 - Paris"
+title = "Py AI Symposium 2025"
 
 # theme
 theme = "devfest-theme-hugo"
 
 # params
 [params]
-    title = "JSON Schema Conference 25"
-    date = "2025-12-11"  # update date 
-    description = "Join us in Paris for JSON Schema Conference 2025 - December 11th at CNIT Forest"
+    title = "Py AI Symposium 2025"
+    date = "2025-11-30"  # update date 
+    description = ""
     images = ["/images/"]
-    email = "info@json-schema.org"
-    keywords = "event, gdg, gde, devfest, google, programming, android, chrome, developers, web, cloud, androiddev"
+    email = "pyconkr@pycon.kr"
+    keywords = "event, python, ai"
     appleTouchIcon = "apple-touch-icon.png"
     cfpUrl = "https://apidays.typeform.com/to/ILJeAaV8?typeform-source=www.apidays.global#event_name=xxxxx"
     favicon32 = "/favicon.ico"
@@ -27,7 +27,7 @@ theme = "devfest-theme-hugo"
     footer = "images/logos/json-schema-logo-white.svg"
 
 [Data]
-  schedule = "2025-12-11"  # update date 
+  schedule = "2025-11-30"  # update date 
 
 [menu]
 [[menu.main]]

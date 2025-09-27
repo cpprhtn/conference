@@ -1,0 +1,30 @@
+---
+key: applying_engineeting_2_json_schema
+title: Python의 flask에서 멀티 스레딩으로 큰 작업의 시간 줄이기
+id: applying_engineeting_2_json_schema
+format: talk
+duration: 20
+tags:
+  - talk
+presentation: /presentation/Applying software engineering practices to JSON Schemas.pdf
+speakers_info:
+  - name: "이준영"
+    company: "Sourcemeta CEO, TSC Member"
+    city: "London, England, United Kingdom"
+    photoURL: "/images/speakers/juan_cruz_viotti.jpeg"
+draft: false
+---
+
+파이썬을 하다보면, 문득 멀티스레딩을 쓰면 좋지 않을까 싶은 때가 있습니다.  
+저 같은 경우는 1년 전, 인공지능을 위한 웹 게임 시뮬레이터를 만들 때, 특정 유저들의 정보를 호출하기 위한 수단으로서 사용해보았습니다.  
+구체적으로는 스레드 하나 당 유저 하나를 불러오고, 그것을 100명의 유저(테스트 단계에서나 100명이지 실제 AI구축 때는 그것보다 더 컸다고 합니다.)에게 반복하는 시스템이었습니다.
+원래라면, 순차적으로 100명의 유저를 불러오고, 쿼리를 하나씩 날리는 방법을 사용해 보았습니다만, 너무 느려서 컴플레인이 들어왔었습니다.
+하지만 제가 했던 방법에서는, 한 스레드마다 하나의 유저를 불러와, 하나로 합쳐서 돌려주는 방법을 고안해 프로그래밍을 해보았습니다.
+결과는 놀라웠습니다. 30초가 걸리던 request가 8초 정도 만에 끝나, 제가 개발한 시스템이 효과가 있었음을 보여주었습니다.
+그만큼, 멀티스레딩은 잘 사용한다면 여러 부분에서 작업속도를 늘려주는 방법론으로서 사용 될 수 있다고 생각됩니다.
+그러나 웹 개발을 하다보면, 잘 추상화된 개발 환경 등에 의하여 멀티스레딩을 잊게 되거나 혹은 상정 외로 생각하는 경우가 많습니다.
+저의 발표에서는 멀티 스레딩의 필요성과, 제가 했던 작업의 구상 과정, 그리고 그 개발당시 개발을 시작한 지 1년 채 안되었던 주니어 개발자 관점에서 다가온 멀티 프로세싱 프로그래밍의 어려움과 현재 시점에서의 회고에 대해서 발표해볼 생각입니다.
+
+---
+
+
