@@ -1,30 +1,65 @@
-- day: 2024-12-05
-  start: "10:00"
-  end: "15:30"
+- day: '2025-11-30'
+  start: '09:45'
   rooms:
-    - room: main2
+    - room: main
       slots:
-        - slot: state_of_json_schema
+        - slot: welcome
+          talk: __open
+        - slot: talk-1
           talk: state_of_json_schema
-        - slot: iec_json_schema
+        - slot: talk-2
           talk: iec_json_schema
-        - slot: coffee_break
-          talk: coffee_break
-        - slot: applying_engineeting_2_json_schema
+        - slot: coffee-break
+          talk: __pause
+        - slot: talk-3
           talk: applying_engineeting_2_json_schema
-        - slot: patterns_high_perf_json_schema
+        - slot: talk-4
           talk: patterns_high_perf_json_schema
-        - slot: relational_db_json_schema
+        - slot: talk-5
           talk: relational_db_json_schema
-        - slot: frontend_json_schema
-          talk: frontend_json_schema
-        - slot: coffee_break
-          talk: lunch_break
-        - slot: json_schema_strands
+        - slot: lunch
+          talk: __lunch
+        - slot: talk-7
           talk: json_schema_strands
-        - slot: webofthings_json_schema
+        - slot: talk-8
           talk: webofthings_json_schema
-        - slot: json_schema_4_data_design
+        - slot: talk-9
           talk: json_schema_4_data_design
-        - slot: json_schema_finos
-          talk: json_schema_finos
+
+    - room: sub1
+      slots:
+        - slot: talk-1
+          talk: intro_sub1
+        - slot: talk-2
+          talk: case_study_sub1
+        - slot: talk-3
+          talk: tools_sub1
+        - slot: talk-4
+          talk: performance_sub1
+        - slot: talk-5
+          talk: db_sub1
+        - slot: talk-7
+          talk: strands_sub1
+        - slot: talk-8
+          talk: iot_sub1
+        - slot: talk-9
+          talk: data_sub1
+
+    - room: sub2
+      slots:
+        - slot: talk-1
+          talk: intro_sub2
+        - slot: talk-2
+          talk: case_study_sub2
+        - slot: talk-3
+          talk: tools_sub2
+        - slot: talk-4
+          talk: performance_sub2
+        - slot: talk-5
+          talk: db_sub2
+        - slot: talk-7
+          talk: strands_sub2
+        - slot: talk-8
+          talk: iot_sub2
+        - slot: talk-9
+          talk: data_sub2

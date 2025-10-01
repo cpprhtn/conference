@@ -5,13 +5,14 @@ id: applying_engineeting_2_json_schema
 format: talk
 duration: 20
 tags:
-  - talk
+  - python
+  - flask
 presentation: /presentation/Applying software engineering practices to JSON Schemas.pdf
 speakers_info:
-  - name: "이준영"
+  - name: "이준원"
     company: "Sourcemeta CEO, TSC Member"
     city: "London, England, United Kingdom"
-    photoURL: "/images/speakers/juan_cruz_viotti.jpeg"
+    photoURL: "/images/speakers/이준원.jpeg"
 draft: false
 ---
 

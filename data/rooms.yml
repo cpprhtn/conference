@@ -1,6 +1,9 @@
 - key: main
-  label: 2024 Schedule
-  description: Schedule for JSON Schema Conference 5 December 2024
-- key: main2
-  label: 2024 Schedule
-  description: Schedule for JSON Schema Conference 5 December 2024
+  label: Main Track
+  description: Main Track
+- key: sub1
+  label: Sub Track 1
+  description: Sub Track 1
+- key: sub2
+  label: Sub Track 2
+  description: Sub Track 2
